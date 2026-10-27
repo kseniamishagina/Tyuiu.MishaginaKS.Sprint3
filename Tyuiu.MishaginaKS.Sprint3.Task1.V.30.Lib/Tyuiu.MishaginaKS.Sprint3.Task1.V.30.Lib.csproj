@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Tyuiu.MishaginaKS.Sprint3.Task1.V._30.Lib</RootNamespace>
+    <RootNamespace>Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Lib</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
