@@ -4,8 +4,8 @@ using Tyuiu.MishaginaKS.Sprint3.Task1.V30.Lib;
 
 namespace Tyuiu.MishaginaKS.Sprint3.Task1.V30;
 
-
 class Program
+
 {
     static void Main(string[] args)
     {
@@ -24,22 +24,23 @@ class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        double value = 0.5;
-        int startValue = 1;
-        int stopValue = 12;
+        double t = 0.5;
+        int start = 1;
+        int stop = 12;
 
-        Console.WriteLine($"Значение T (value) = {value.ToString("G", CultureInfo.InvariantCulture)}");
-        Console.WriteLine($"Старт шага (startValue) = {startValue}");
-        Console.WriteLine($"Конец шага (stopValue) = {stopValue}");
+        Console.WriteLine($"Значение T = {t}");
+        Console.WriteLine($"Старт шага = {start}");
+        Console.WriteLine($"Конец шага = {stop}");
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        double result = ds.GetSumSeries(value, startValue, stopValue);
+        double result = ds.GetSumSeries(t, start, stop);
 
         Console.WriteLine($"Сумма ряда S = {result.ToString("G", CultureInfo.InvariantCulture)}");
 
         Console.ReadKey();
     }
 }
+

@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Tyuiu.MishaginaKS.Sprint3.Task1.V._30.Test</RootNamespace>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -13,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Lib\Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.MishaginaKS.Sprint3.Task1.V30.Lib\Tyuiu.MishaginaKS.Sprint3.Task1.V30.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

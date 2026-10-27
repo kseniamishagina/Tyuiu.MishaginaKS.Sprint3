@@ -5,8 +5,8 @@
     <Project Path="Tyuiu.MishaginaKS.Sprint3.Task0.V9/Tyuiu.MishaginaKS.Sprint3.Task0.V9.csproj" Id="bd45921b-06c3-48b5-a630-e0defc53824f" />
   </Folder>
   <Folder Name="/Task 1/">
-    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Lib/Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Lib.csproj" Id="8b9f6ae8-a64d-4840-88f3-70cfda6823ed" />
-    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Test/Tyuiu.MishaginaKS.Sprint3.Task1.V.30.Test.csproj" Id="29f1ba87-2b6a-4b03-90ff-20e6cc149741" />
-    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V.30/Tyuiu.MishaginaKS.Sprint3.Task1.V.30.csproj" Id="d33dd6a0-6d50-4d2f-aded-0d9ec1e43652" />
+    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V30.Lib/Tyuiu.MishaginaKS.Sprint3.Task1.V30.Lib.csproj" Id="eadbf9b0-a7f5-4aeb-a855-c87612875037" />
+    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V30.Test/Tyuiu.MishaginaKS.Sprint3.Task1.V30.Test.csproj" Id="e504275d-a701-4be9-a68a-b3154063a4ff" />
+    <Project Path="Tyuiu.MishaginaKS.Sprint3.Task1.V30/Tyuiu.MishaginaKS.Sprint3.Task1.V30.csproj" Id="d54ebed8-9803-4838-967c-d49706043f9a" />
   </Folder>
 </Solution>
