@@ -24,13 +24,18 @@ namespace Tyuiu.MishaginaKS.Sprint3.Task0.V9
             Console.WriteLine("***************************************************************************");
 
             double x = 0.5;
-            Console.WriteLine($"Значение X = {x.ToString("G", CultureInfo.InvariantCulture)}");
+            int start = 1;
+            int stop = 15;
+
+            Console.WriteLine($"Значение X = {x}");
+            Console.WriteLine($"Старт шага = {start}");
+            Console.WriteLine($"Конец шага = {stop}");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.GetSumSeries(x);
+            double result = ds.GetSumSeries(x, start, stop);
 
             Console.WriteLine($"Сумма ряда S = {result.ToString("G", CultureInfo.InvariantCulture)}");
 
