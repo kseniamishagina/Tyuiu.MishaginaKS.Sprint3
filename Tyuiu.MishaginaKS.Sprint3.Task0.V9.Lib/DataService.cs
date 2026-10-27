@@ -5,10 +5,13 @@ using tyuiu.cources.programming.interfaces.Sprint3;
 using System;
 
 
-    public class DataService : ISprint3Task0V9
+    public class DataService
+
     {
-        public double GetSumSeries(double x)
-        {
+
+    public double GetSumSeries(double x)
+
+    {
             double sum = 0;
 
             for (int i = 1; i <= 15; i++)
@@ -23,9 +26,4 @@ using System;
             return Math.Round(sum, 3);
         }
 
-    public double GetSumSeries(double value, int startValue, int stopValue)
-
-    {
-        throw new NotImplementedException();
-    }
 }
