@@ -16,10 +16,10 @@ public class DataService : ISprint3Task5V30
             for (int k = startValue2; k <= stopValue2; k++)
 
             {
-                sum += Math.Pow(x, 3) - k;
+                sum += Math.Pow(x, 3) - k + x;
             }
         }
 
-        return sum + x;
+        return sum;
     }
 }

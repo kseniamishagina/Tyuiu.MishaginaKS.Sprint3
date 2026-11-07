@@ -5,7 +5,6 @@ namespace Tyuiu.MishaginaKS.Sprint3.Task5.V30.Test;
 
 [TestClass]
 public class DataServiceTest
-
 {
     [TestMethod]
     public void ValidGetSumSumSeries()
@@ -20,7 +19,7 @@ public class DataServiceTest
         int stopValue2 = 11;
 
         double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-        double wait = 68;
+        double wait = 132.0;
 
         Assert.AreEqual(wait, res);
     }
